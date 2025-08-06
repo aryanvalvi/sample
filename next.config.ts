@@ -1,7 +1,10 @@
 import type {NextConfig} from "next"
 
 const nextConfig: NextConfig = {
-  allowedDevOrigins: ["https://ai.uiuxyn.xyz"],
+  allowedDevOrigins: [
+    "https://ai.uiuxyn.xyz",
+    "https://api2.uiuxyn.xyz/api/trpc",
+  ],
   /* config options here */
 }
 
