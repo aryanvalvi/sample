@@ -1,1 +1,1 @@
-[Live Project](https://ui.uiuxyn.xyz)
+[Live Project](https://ai.uiuxyn.xyz)
