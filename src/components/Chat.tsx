@@ -176,16 +176,6 @@ const Chat = () => {
       </div>
 
       <div className="input-group p-3 bg-white rounded-bottom shadow">
-        <select
-          className="form-select flex-shrink-0"
-          value={mode}
-          onChange={e => setMode(e.target.value as "text" | "image")}
-          disabled={loading}
-          style={{maxWidth: "120px"}}
-        >
-          <option value="text">Text</option>
-          <option value="image">Image</option>
-        </select>
         <input
           type="text"
           value={inputMessage}
